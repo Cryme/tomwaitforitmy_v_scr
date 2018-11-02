@@ -2,7 +2,7 @@ import ffmpeg
 import cv2
 import subprocess
 
-ppath = "C:\\Users\\CrymeAriver\PycharmProjects\\tomwaitforitmy_v_scr\\"
+ppath = "C:\\Users\\CrymeAriver\\PycharmProjects\\tomwaitforitmy_v_scr\\"
 file_name = 'qwe.flv'
 
 probe = ffmpeg.probe(ppath+file_name)
